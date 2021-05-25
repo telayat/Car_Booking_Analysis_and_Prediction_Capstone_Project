@@ -45,7 +45,7 @@ I have also added comments and markdown cells to make it easier to navigate and 
 
 ## Results<a name="results"></a>
 
-The main findings of the analysis and prediction can be found in the "Data Scientist Nano Degree (Capstone%20Project)" report [here](https://github.com/telayat/Car_Booking_Analysis_and_Prediction_Capstone_Project/blob/main/Data%20Scientist%20Nano%20Degree%20(Capstone%20Project).pdf) attached to this repo.
+The main findings of the analysis and prediction can be found in the "Data Scientist Nano Degree (Capstone Project)" report [here](https://github.com/telayat/Car_Booking_Analysis_and_Prediction_Capstone_Project/blob/main/Data%20Scientist%20Nano%20Degree%20(Capstone%20Project).pdf) attached to this repo.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
