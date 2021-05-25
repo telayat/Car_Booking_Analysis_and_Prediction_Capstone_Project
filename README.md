@@ -1,12 +1,15 @@
 # Car Booking Analysis and Prediction (Capstone Project)
 
+![intro_image](https://github.com/telayat/Car_Booking_Analysis_and_Prediction_Capstone_Project/blob/main/Pics/carbooking.png)
+
 ### Table of Contents
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+3. [Dataset](#dataset)
+4. [File Descriptions](#files)
+5. [Results](#results)
+6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 XGBoost library should be installed which can be done by running "pip install xgboost" command on terminal.
@@ -17,11 +20,21 @@ Other than this there should be no necessary libraries to run the code here beyo
 Car Booking Apps is a fast growing business in Egypt because it offers more reliable, secured and intelligent transportation options.
 The winner in this area will be the one who employ data analytics to provide better customer service with minimal cost.
 
+![problem_image](https://github.com/telayat/Car_Booking_Analysis_and_Prediction_Capstone_Project/blob/main/Pics/transportation_problem.jpg)
+
 In this project I will answer some questions that shall help in providing better service and increase efficiency and revenue:
 1. What are the top pick up locations per specific time?
 2. What are the top pick up locations per specific times and favorite drop off list?
 3. Predict fare amount?
 4. Suggest best time to for a specific trip.
+
+## Dataset<a name="dataset"></a>
+
+Unfortunately, dataset is not available for the Egyptian market, so I will use a similar data from other markets to build and test the use case.
+The data used were collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP).
+I have used the Yellow Taxi trips data from year 2019 to avoid the impact of Covid-19 (over 40 million trips was used in the analysis).
+
+The dataset can be found and downloaded from [here](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 
 ## File Descriptions <a name="files"></a>
@@ -32,9 +45,9 @@ I have also added comments and markdown cells to make it easier to navigate and 
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found in the "Blog-HouseSalesAnalysis.md" [here](https://github.com/telayat/House-Sales-Analysis/blob/main/Blog-HouseSalesAnalysis.md) attached to this repo.
+The main findings of the analysis and prediction can be found in the "Data Scientist Nano Degree (Capstone%20Project)" report [here](https://github.com/telayat/Car_Booking_Analysis_and_Prediction_Capstone_Project/blob/main/Data%20Scientist%20Nano%20Degree%20(Capstone%20Project).pdf) attached to this repo.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-The Ames Housing dataset was compiled by Dean De Cock for use in data science education, credit must be given to Dean.
-You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview).  Otherwise, feel free to use the code here as you would like! 
+Thanks to NYC Taxi and Limousine Commission (TLC) and technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP) for providing the dataset used in this analysis.
+Licensing information and dataset can be found [here](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
